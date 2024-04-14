@@ -1,0 +1,37 @@
+[
+  {
+    "nik": 1,
+    "nama": "Dian",
+    "agamaId": 2,
+    "alamat": "Jl.Marpaung",
+    "provinsiId": 12
+  },
+  {
+    "nik": 2,
+    "nama": "Dqi",
+    "agamaId": 1,
+    "alamat": "Jl.Marpaung",
+    "provinsiId": 12
+  },
+  {
+    "nik": "3",
+    "nama": "Nuke",
+    "agamaId": "3",
+    "alamat": "Jl",
+    "provinsiId": "31"
+  },
+  {
+    "nik": "4",
+    "nama": "Luq",
+    "agamaId": "4",
+    "alamat": "Jl. Erjnda",
+    "provinsiId": "13"
+  },
+  {
+    "nik": "5",
+    "nama": "Rina",
+    "agamaId": "5",
+    "alamat": "Jl. Tera",
+    "provinsiId": "31"
+  }
+]

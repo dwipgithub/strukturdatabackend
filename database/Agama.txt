@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nama": "Islam"
+  },
+  {
+    "id": "2",
+    "nama": "Protestan"
+  },
+  {
+    "id": "3",
+    "nama": "Katolik"
+  },
+  {
+    "id": "4",
+    "nama": "Hindu"
+  },
+  {
+    "id": "5",
+    "nama": "Budha"
+  }
+]

@@ -1,0 +1,52 @@
+### Get Provinsi
+GET http://localhost:5001/indonesia/provinsi?urut=-nama
+
+### Show Provinsi
+GET http://localhost:5001/indonesia/barang/1
+
+### Insert Provinsi
+POST http://localhost:5001/indonesia/provinsi
+Content-Type: application/json
+
+{
+    "id": 12,
+    "nama": "Sumatera Barat"
+}
+
+### Ubah Provinsi
+PATCH http://localhost:5001/indonesia/provinsi/2
+Content-Type: application/json
+
+{
+    "nama": "sayur"
+}
+
+### Insert Penduduk
+POST http://localhost:5001/indonesia/penduduk
+Content-Type: application/json
+
+{
+    "nik": 2,
+    "nama": "Dqi",
+    "agamaId": 1,
+    "alamat": "Jl.Marpaung",
+    "provinsiId": 12
+}
+
+### Get Penduduk
+GET http://localhost:5001/indonesia/penduduk?urut=-provinsiNama
+
+### Get Agama
+GET http://localhost:5001/indonesia/agama?urut=id
+
+### Show Agama
+GET http://localhost:5001/indonesia/agama/1
+
+### Insert Agama
+POST http://localhost:5001/indonesia/agama
+Content-Type: application/json
+
+{
+    "id": 3,
+    "nama": "Katolik"
+}

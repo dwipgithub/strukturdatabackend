@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nama": "kipas"
+  },
+  {
+    "id": 2,
+    "nama": "buku"
+  },
+  {
+    "id": 3,
+    "nama": "laptop"
+  },
+  {
+    "id": 4,
+    "nama": "server"
+  },
+  {
+    "id": 5,
+    "nama": "switch"
+  }
+]
