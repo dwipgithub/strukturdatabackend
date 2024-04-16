@@ -10,13 +10,5 @@
   {
     "id": "3",
     "nama": "Katolik"
-  },
-  {
-    "id": "4",
-    "nama": "Hindu"
-  },
-  {
-    "id": "5",
-    "nama": "Budha"
   }
 ]

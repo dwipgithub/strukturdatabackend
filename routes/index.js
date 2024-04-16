@@ -6,20 +6,20 @@ import { getPenduduk, insertPenduduk } from '../controllers/PendudukController.j
 const router = express.Router()
 
 // Provinsi
-router.get('/indonesia/provinsi', getProvinsi)
-router.get('/indonesia/provinsi/:id', showProvinsi)
-router.post('/indonesia/provinsi', insertProvinsi)
-router.patch('/indonesia/provinsi/:id', updateProvinsi)
+router.get('/api-strukturdata/provinsi', getProvinsi)
+router.get('/api-strukturdata/provinsi/:id', showProvinsi)
+router.post('/api-strukturdata/provinsi', insertProvinsi)
+router.patch('/api-strukturdata/provinsi/:id', updateProvinsi)
 
 // Agama
-router.get('/indonesia/agama', getAgama)
-router.get('/indonesia/agama/:id', showAgama)
-router.post('/indonesia/agama', insertAgama)
-router.patch('/indonesia/agama/:id', updateAgama)
+router.get('/api-strukturdata/agama', getAgama)
+router.get('/api-strukturdata/agama/:id', showAgama)
+router.post('/api-strukturdata/agama', insertAgama)
+router.patch('/api-strukturdata/agama/:id', updateAgama)
 
 // Penduduk
-router.get('/indonesia/penduduk', getPenduduk)
-router.post('/indonesia/penduduk', insertPenduduk)
+router.get('/api-strukturdata/penduduk', getPenduduk)
+router.post('/api-strukturdata/penduduk', insertPenduduk)
 
 
 export default router

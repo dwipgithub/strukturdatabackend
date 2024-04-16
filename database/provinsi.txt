@@ -4,11 +4,7 @@
     "nama": "Aceh"
   },
   {
-    "id": 12,
-    "nama": "Sumatera Barat"
-  },
-  {
-    "id": "13",
+    "id": "12",
     "nama": "Sumatera Utara"
   },
   {

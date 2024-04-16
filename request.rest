@@ -1,5 +1,5 @@
 ### Get Provinsi
-GET http://192.168.50.86/indonesia/provinsi?urut=-nama
+GET http://localhost/api-strukturdata/provinsi?urut=-nama
 
 ### Show Provinsi
 GET http://localhost:5001/indonesia/barang/1
@@ -37,7 +37,7 @@ Content-Type: application/json
 GET http://localhost:5001/indonesia/penduduk?urut=-provinsiNama
 
 ### Get Agama
-GET http://localhost:5001/indonesia/agama?urut=id
+GET http://localhost/api-strukturdata/agama?urut=id
 
 ### Show Agama
 GET http://localhost:5001/indonesia/agama/1
