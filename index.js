@@ -3,7 +3,7 @@ import router from './routes/index.js'
 import cors from "cors"
 
 const app = express()
-app.use(cors( {credentials: true, origin: ["http://localhost:3000"]}))
+app.use(cors( {credentials: true, origin: ["http://localhost:3002"]}))
 app.use(express.json())
 app.use(router)
 

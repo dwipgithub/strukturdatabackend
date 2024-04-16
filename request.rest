@@ -1,5 +1,5 @@
 ### Get Provinsi
-GET http://localhost:5001/indonesia/provinsi?urut=-nama
+GET http://192.168.50.86/indonesia/provinsi?urut=-nama
 
 ### Show Provinsi
 GET http://localhost:5001/indonesia/barang/1
